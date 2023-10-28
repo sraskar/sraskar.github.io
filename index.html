@@ -1,50 +1,104 @@
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
-
-<html>
-	<head>
-		<title> Siddhisanket Raskar - Home </title>
-	</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
 	
-	<body>
-			Personal Website (Under constrcution) 
+	<body class="p-3 m-0 border-0 bd-example m-0 border-0">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <div class="container">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+    
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+    
+            <li class="nav-item">
+              <a class="nav-link" href="#">Publications</a>
+            </li>
+    
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+
+    <div class="container">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4" >
+              <img src="profile.jpeg" class="rounded mx-auto d-block" height="300" width="300" alt="Sid Raskar Profile Picture" >
+          
+              <div class="text-center">
+                <p class="h4" >Siddhisanket Raskar</p>
+
+                <p>Postdoctoral Researcher<br>
+                Argonne Leadership Computing Facility<br>
+                Argonne National Laboratory, IL, USA<br>
+                s[lastname]@anl[dot]gov</p>
+
+                <p>
+                  <a href="https://www.linkedin.com/in/sraskar/">LinkedIn </a><br>
+                  <a href="https://scholar.google.com/citations?user=o1CtVzUAAAAJ&hl=en">Google Scholar </a> <br>
+                  <a href="https://github.com/sraskar/">GitHub</a> <br>
+                  <a href="https://orcid.org/0000-0002-4832-0834">ORCID</a> <br>
+                  <a href="https://www.alcf.anl.gov/about/people/siddhisanket-sid-raskar">Argonne Website</a> <br>
+
+                </p>
+              </div>
+          </div>
+
+          
+
+          <div class="col-sm-8">
+            <!-- <h1>Siddhisanket Raskar</h1> -->
+            <p class="h1 ">Siddhisanket Raskar</p>
+            
+            <p class="lead">
+              I am a post-doctoral researcher in the Data Sciences group with the Argonne Leadership Computing Facility (ALCF) at Argonne National Laboratory. I work on evaluating the efficacy of AI architectures for scientific machine learning and on the design of next-generation AI architectures for science
+            </p> 
+            
+            <p class="lead">
+              I obtained my Ph.D. under the guidance of Prof. Guang R. Gao on the topic of “Dataflow Software Pipelining for Codelet Model using hardware-software co-design” from the Electrical and Computer Engineering department at the University of Delaware. I also have a Master’s in Computer Science from the University of Delaware and a Bachelor’s in Computer Engineering from the University of Pune, India.
+            </p>
+
+            <p class="lead">
+              I am interested in pursuing a research-oriented career in the field of computer architecture, high-performance computing, and machine learning.
+            </p>
+
+            <p class="lead">
+              Research Interests :
+              <ul>
+                <li>Computing and Dataflow Models</li> 
+                <li>Computer Architecture and Systems</li> 
+                <li>Compilers Technology and Runtime Systems</li> 
+                <li>Program mapping and optimization under dataflow models</li> 
+              </ul>
+            </p>            
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <p hidden><a href="https://clustrmaps.com/site/1bx3z"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=SqXwaq_frK5Sfzq0mXTKs3sZMvyrsDy_IezSBgT1oEo&cl=ffffff" /></a></p>
+    
 	</body>
 	
 </html>
